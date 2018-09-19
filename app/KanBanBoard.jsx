@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, PropTypes} from 'react';
 import List from './List.jsx';
 
 class KanBanBoard extends Component {
@@ -14,6 +14,9 @@ class KanBanBoard extends Component {
     }
 }
 
+KanBanBoard.propTypes = {
+    cards: PropTypes.arrayOf(PropTypes.object)
+};
 export default KanBanBoard;
 
 
