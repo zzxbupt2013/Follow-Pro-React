@@ -5,10 +5,13 @@ var webpack = require('webpack');
  */
 var config = {
     devtool: 'eval-source-map',
-    entry:  __dirname + "/app/App.js",
+    entry:  {
+        bundle:__dirname + "/app/App.js",
+        bundle1:__dirname+"/app/contactapp.jsx"
+    },
     output: {
         path: __dirname + "/bundle",
-        filename: "bundle.js"
+        filename: "[name].js"
     },
     module: {
         loaders: [{
