@@ -7,7 +7,9 @@ var config = {
     devtool: 'eval-source-map',
     entry:  {
         bundle:__dirname + "/app/App.js",
-        bundle1:__dirname+"/app/contactapp.jsx"
+        bundle1:__dirname+"/app/contactapp.jsx",
+        bundle2:__dirname + "/app/AnimatedShoppingList.js",
+        bundle3:__dirname + "/app/drag.js",
     },
     output: {
         path: __dirname + "/bundle",
