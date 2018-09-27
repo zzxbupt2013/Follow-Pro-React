@@ -1,4 +1,5 @@
 //  CONST
 export default {
-    SNACK:'snack'
+    SNACK:'snack',
+    CARD:'card'
 };
